@@ -9,6 +9,7 @@ class Person{
         alert(this.name);
         return this.name;
     }
+    
 }
 
 var  p = new Person('张三');
