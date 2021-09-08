@@ -41,7 +41,11 @@ class Cat extends Animal {
     eat(): string {
         return `${this.name} 在吃鱼`
     }
+
+    // 父类和子类有同样的方法 优先用子类的
 }
 
 var maoMao = new Cat('猫猫');
 maoMao.run();
+
+
