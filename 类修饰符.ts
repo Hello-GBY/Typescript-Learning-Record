@@ -5,8 +5,11 @@
  */
 
  class Animal_2 {
+    // 公共的
     public name: string;
+    // 受保护的
     protected sex: string; // 外部访问不了 只能在当前类 或者 子类 使用 
+    // 私有的
     private age: string;   // 外部访问不了 只能在当前类使用 
 
     constructor(name: string) {
