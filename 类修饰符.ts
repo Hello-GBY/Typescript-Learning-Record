@@ -17,6 +17,7 @@
         return `${this.name}正在跑`
     }
 }
+
 var cat_2 = new Animal_2('猫猫');
 cat_2.name;
 cat_2.sex; // 报错
