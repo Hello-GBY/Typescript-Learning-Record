@@ -13,3 +13,35 @@ class Person{
 
 var  p = new Person('张三');
 p.getName();
+
+/**
+ *  实现继承 extends、super
+ */
+class Animal {
+    name: string;
+
+    constructor(name: string) {
+        this.name = name;
+    }
+
+    run(): string{
+        return `${this.name}正在跑`
+    }
+}
+/**
+ * 猫继承动物类
+ */
+class Cat extends Animal {
+
+    constructor(name) {
+        
+        super(name);
+    }
+
+    eat(): string {
+        return `${this.name} 在吃鱼`
+    }
+}
+
+var maoMao = new Cat('猫猫');
+maoMao.run();
