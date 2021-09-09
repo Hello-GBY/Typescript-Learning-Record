@@ -1,3 +1,3 @@
 ## typescript
 
-123
+# typescript 的使用
