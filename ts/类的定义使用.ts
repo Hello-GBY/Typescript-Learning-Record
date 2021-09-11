@@ -34,7 +34,7 @@ class Animal {
  */
 class Cat extends Animal {
 
-    constructor(name) {
+    constructor(name: string) {
         
         super(name);
     }
