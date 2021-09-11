@@ -26,4 +26,4 @@ function ajax(config) {
     // let xml = new XMLHttpRequest();
 }
 console.log('asdf');
-// alert(1)
+alert(1);

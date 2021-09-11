@@ -34,5 +34,5 @@ function ajax (config: config){
 }
 
 console.log('asdf')
-// alert(1)
+alert(1);
 

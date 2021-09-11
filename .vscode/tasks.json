@@ -9,7 +9,10 @@
 				"$tsc-watch"
 			],
 			"group": "build",
-			"label": "tsc: watch - tsconfig.json"
+			"label": "tsc: watch - tsconfig.json",
+			"presentation": {
+   	     "panel": "new", //这里shared表示共享，改成new之后每个进程创建新的端口
+   		 }
 		}
 	]
 }
