@@ -31,5 +31,14 @@ enum Flag {
 }
 var status_:Flag = Flag.success
 console.log('status: ', status_);
-// 
+// 第二种情况 这样定义 取值是下标
+enum Flag2 {
+  blue, red, green
+} 
+var val:Flag2 = Flag2.blue;
+console.log('val: ', val); // 1
+
+
+// never 类型 代表从不会出现的值  null 或者 undefined  类型
+
 

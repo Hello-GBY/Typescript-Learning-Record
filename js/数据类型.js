@@ -29,4 +29,13 @@ var Flag;
 })(Flag || (Flag = {}));
 var status_ = Flag.success;
 console.log('status: ', status_);
-// 
+// 第二种情况 这样定义 取值是下标
+var Flag2;
+(function (Flag2) {
+    Flag2[Flag2["blue"] = 0] = "blue";
+    Flag2[Flag2["red"] = 1] = "red";
+    Flag2[Flag2["green"] = 2] = "green";
+})(Flag2 || (Flag2 = {}));
+var val = Flag2.blue;
+console.log('val: ', val); // 1
+// never 类型 代表从不会出现的值  null 或者 undefined  类型
