@@ -19,7 +19,7 @@ var Person = /** @class */ (function () {
         this.name = n;
     }
     Person.prototype.getName = function () {
-        alert(this.name);
+        // alert(this.name);
         return this.name;
     };
     return Person;

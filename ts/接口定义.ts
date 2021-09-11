@@ -30,8 +30,9 @@ interface config {
 
 function ajax (config: config){
   let {url, methods, body, headers} = {...config}
-  let xml = new XMLHttpRequest();
+  // let xml = new XMLHttpRequest();
 }
 
 console.log('asdf')
+// alert(1)
 

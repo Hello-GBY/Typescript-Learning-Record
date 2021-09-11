@@ -6,7 +6,7 @@ class Person{
     }
 
     getName():string {
-        alert(this.name);
+        // alert(this.name);
         return this.name;
     }
     
