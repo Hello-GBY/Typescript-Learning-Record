@@ -33,3 +33,5 @@ function ajax (config: config){
   let xml = new XMLHttpRequest();
 }
 
+console.log('asdf')
+

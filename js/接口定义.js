@@ -25,3 +25,4 @@ function ajax(config) {
     var _a = __assign({}, config), url = _a.url, methods = _a.methods, body = _a.body, headers = _a.headers;
     var xml = new XMLHttpRequest();
 }
+console.log('asdf');
