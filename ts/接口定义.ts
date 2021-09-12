@@ -51,7 +51,7 @@ interface userClass {
 }
 
 class Bard implements userClass {
-  name: string,
+  name: string
   constructor(name:string) {
     this.name = name;
   }
