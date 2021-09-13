@@ -9,4 +9,25 @@ npm init vite-app <project-name>
 
 
 
+setup函数
+setUp(props, context){
+  // props 是父组件传递过来的数据
+  // context 上下文对象
+  /**
+   * 解构 context
+   * {attrs, slots, emit}
+   */
+}
 
+<script>
+  import { defineComponent } from "vue";
+  export default defineComponent({
+    setup(props, {attrs, slots, emit}){
+
+    }
+  })
+</script>
+
+
+ref 
+返回响应式数据
