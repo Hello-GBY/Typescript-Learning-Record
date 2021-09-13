@@ -29,5 +29,34 @@ setUp(props, context){
 </script>
 
 
-ref 
+ref()
 返回响应式数据
+const value = ref(0)
+
+reactive()
+定义多个数据的响应式，接收一个普通对象返回该普通对象的响应式代理
+const value2 = reactive({
+  name: 'guoguo',
+  age: 23,
+  wife: {
+    name: 'gongzuo'
+  }
+})
+
+
+computed()
+返回一个ref类型的对象
+
+const first = compute(() => {
+  return 'xxx'
+})
+相当于 只是get操作
+
+const scented = compute(()=>{
+  get() {
+    return ''
+  }
+  set(val: string){
+    ...
+  }
+})
