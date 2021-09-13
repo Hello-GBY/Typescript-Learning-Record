@@ -60,7 +60,7 @@ function methodSet(target: any, method: any, dec: any){
   console.log('target: ', target);
   console.log('dec: ', dec);
   // target[method]
-  // dec 是当前装饰方法
+  // dec 是当前装饰方法6
   var oldMethod = dec.value();
   dec.value = function (...args: any[] ) {
     console.log('args: ', args);
