@@ -74,3 +74,5 @@ provide inject
 // suspense 不确定的
 
 // script setup 语法糖
+
+// 跨组件通讯mitt.js
