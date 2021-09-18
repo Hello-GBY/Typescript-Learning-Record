@@ -60,3 +60,19 @@ const scented = compute(()=>{
     ...
   }
 })
+
+// 钩子函数变了
+前面加上on
+
+
+// 父子传递数据
+provide inject
+
+// 瞬移 
+< teleport to='body'>
+
+// suspense 不确定的
+
+// script setup 语法糖
+
+// 跨组件通讯mitt.js
