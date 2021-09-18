@@ -1,4 +1,4 @@
-//  Volar 插件  Vetur插件
+// ** Volar 插件  Vetur插件
 
 //  1.vue-cil创建 vue3项目 脚手架 要是4.5.0 以上
 vue create my-project
@@ -50,8 +50,8 @@ computed()
 const first = compute(() => {
   return 'xxx'
 })
-相当于 只是get操作
 
+// 相当于 只是get操作
 const scented = compute(()=>{
   get() {
     return ''
