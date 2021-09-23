@@ -76,3 +76,23 @@ provide inject
 // script setup 语法糖
 
 // 跨组件通讯mitt.js
+
+// toRefs
+将响应式对象转换为普通对象，对象中的每个键值对就是 ref
+ 对于reactive()
+const user  = reactive({
+  name: '你好'
+})
+
+如果用扩展运算符 展开 就不是响应式数据了
+return {
+ ...user // 就不是响应式的了
+}
+
+ 用 toRefs 响应式的了
+
+ toRefs(user)
+
+ return  {
+   ...user
+ }
