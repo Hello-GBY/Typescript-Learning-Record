@@ -69,9 +69,25 @@ const scented = compute(()=>{
 provide inject
 
 // 瞬移 
-< teleport to='body'>
-
+{/* < teleport to='body'>
+to = '#endofbody'
 // suspense 不确定的
+<teleport to='body'>
+  a
+</teleport>
+<teleport to='body'>
+  b
+</teleport>
+多个挂载会在同一个追加上去 */}
+
+// 片段
+在组件中支持多个跟标签了，即片段
+
+// 自定义事件
+不同组件和prop，事件名不存在任何自动化的大小写转换。
+this.$emit('myEvent');
+@my-event  // 这样并不能触发事件
+事件名称必须完全一样了
 
 // script setup 语法糖
 
