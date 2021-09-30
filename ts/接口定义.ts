@@ -34,7 +34,7 @@ interface userArr{
   [index: number]: string
 } // index 不能 家引号
 var arr:userArr = ['1','2','3'];
-console.log('arr[0]: ', arr[0]);
+
   // 对对象进行约束
 interface userObj {
   [index: string]: string
