@@ -28,10 +28,10 @@
    9. any 
    10. void 类型
    11. never
-   
+
    在基础类型上，typescript增添了void、any、emum等原始类型
 
-4. ts高级类型
+4. 高级类型 type
    
 
 
