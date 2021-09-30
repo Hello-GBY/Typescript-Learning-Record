@@ -1,4 +1,4 @@
-//  Volar 插件  Vetur插件
+// ** Volar 插件  Vetur插件
 
 //  1.vue-cil创建 vue3项目 脚手架 要是4.5.0 以上
 vue create my-project
@@ -50,8 +50,8 @@ computed()
 const first = compute(() => {
   return 'xxx'
 })
-相当于 只是get操作
 
+// 相当于 只是get操作
 const scented = compute(()=>{
   get() {
     return ''
@@ -69,9 +69,25 @@ const scented = compute(()=>{
 provide inject
 
 // 瞬移 
-< teleport to='body'>
-
+{/* < teleport to='body'>
+to = '#endofbody'
 // suspense 不确定的
+<teleport to='body'>
+  a
+</teleport>
+<teleport to='body'>
+  b
+</teleport>
+多个挂载会在同一个追加上去 */}
+
+// 片段
+在组件中支持多个跟标签了，即片段
+
+// 自定义事件
+不同组件和prop，事件名不存在任何自动化的大小写转换。
+this.$emit('myEvent');
+@my-event  // 这样并不能触发事件
+事件名称必须完全一样了
 
 // script setup 语法糖
 
