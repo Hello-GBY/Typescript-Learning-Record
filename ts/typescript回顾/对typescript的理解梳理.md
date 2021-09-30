@@ -31,7 +31,8 @@
 
    在基础类型上，typescript增添了void、any、emum等原始类型
 
-4. 高级类型 type
+4. 高级类型 type 、& 、| 
+5. 装饰器
    
 
 
