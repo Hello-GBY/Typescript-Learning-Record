@@ -1,3 +1,6 @@
+# Typescript
+记录学习收获和过程
+
 ## typescript 的使用
 
 # 安装typescript
